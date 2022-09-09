@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 import { ConnectButton } from '@rainbow-me/rainbowkit'
+import ExploreProfiles from '../components/ExploreProfiles'
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,8 @@ const Home: NextPage = () => {
 
       <section className="my-8">
         <ConnectButton accountStatus="address" chainStatus="name" />
+
+        <ExploreProfiles />
       </section>
     </div>
   )
