@@ -7,7 +7,7 @@ Getting started with Lens Protocol
 
 - [Lens Protocol](https://lens.xyz/)
 - [Next.js](https://nextjs.org/)
-- [Tailwind CSS)(https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Ethers.js](https://github.com/ethers-io/ethers.js/)
 - [RainbowKit](https://www.rainbowkit.com/)
 - [wagmi](https://wagmi.sh/)
