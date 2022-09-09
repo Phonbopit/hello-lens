@@ -3,6 +3,9 @@ import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
 import { chain, configureChains, createClient, WagmiConfig } from 'wagmi'
 import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { publicProvider } from 'wagmi/providers/public'
+import { Provider } from 'urql'
+
+import { graphqlClient } from '../lens-api'
 
 const apiKey = process.env.ALCHEMY_ID
 
@@ -32,12 +35,14 @@ interface Props {
   children: React.ReactNode
 }
 
-const RainbowKitProviderWrapper = ({ children }: Props) => {
+const AppProvider = ({ children }: Props) => {
   return (
-    <WagmiConfig client={wagmiClient}>
-      <RainbowKitProvider chains={chains}>{children}</RainbowKitProvider>
-    </WagmiConfig>
+    <Provider value={graphqlClient}>
+      <WagmiConfig client={wagmiClient}>
+        <RainbowKitProvider chains={chains}>{children}</RainbowKitProvider>
+      </WagmiConfig>
+    </Provider>
   )
 }
 
-export default RainbowKitProviderWrapper
+export default AppProvider

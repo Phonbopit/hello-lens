@@ -1,16 +1,16 @@
 import type { AppProps } from 'next/app'
 
-import RainbowKitProvider from '../components/RainbowKitProvider'
+import AppProvider from '../components/AppProvider'
 
-import '@fontsource/comfortaa'
+import '@fontsource/varela-round'
 
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <RainbowKitProvider>
+    <AppProvider>
       <Component {...pageProps} />
-    </RainbowKitProvider>
+    </AppProvider>
   )
 }
 

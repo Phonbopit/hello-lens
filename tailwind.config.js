@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Comfortaa', ...defaultTheme.fontFamily.sans],
+        sans: ['Varela Round', ...defaultTheme.fontFamily.sans],
       },
     },
   },
