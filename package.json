@@ -9,6 +9,9 @@
     "lint": "next lint",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css}'"
   },
+  "resolutions": {
+    "ethereumjs-abi": "https://registry.npmjs.org/ethereumjs-abi/-/ethereumjs-abi-0.6.8.tgz"
+  },
   "dependencies": {
     "@fontsource/varela-round": "4.5.9",
     "@rainbow-me/rainbowkit": "0.5.1",

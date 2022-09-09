@@ -3,6 +3,17 @@ Hello Lens
 
 Getting started with Lens Protocol + Next.js + GraphQL + Tailwind CSS
 
+## Usage
+
+1. Create your [Alchemy key](https://docs.alchemy.com/docs/alchemy-quickstart-guide#1key-create-an-alchemy-key) or any providers your choice.
+2. Create `.env` file (see `.env.example`)
+3. Install & Run dev mode.
+
+```
+yarn install
+yarn dev
+```
+
 ## Stacks
 
 - [Lens Protocol](https://lens.xyz/)
