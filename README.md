@@ -10,8 +10,8 @@ Getting started with Lens Protocol + Next.js + GraphQL + Tailwind CSS
 3. Install & Run dev mode.
 
 ```
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 ## Stacks
