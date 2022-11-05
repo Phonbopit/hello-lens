@@ -1,6 +1,6 @@
 import { useQuery } from 'urql'
 
-import { EXPLORE_PROFILES } from '../lens-api'
+import { EXPLORE_PROFILES } from '../services/lens-api'
 
 // TODO: same as graphql schema
 interface Profile {
