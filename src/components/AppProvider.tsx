@@ -7,7 +7,7 @@ import { Provider } from 'urql'
 
 import { graphqlClient } from '../services/lens-api'
 
-const apiKey = process.env.ALCHEMY_ID
+const apiKey = process.env.NEXT_PUBLIC_ALCHEMY_ID
 
 export const { chains, provider } = configureChains(
   [
